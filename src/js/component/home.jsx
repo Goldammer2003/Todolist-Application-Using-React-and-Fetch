@@ -5,7 +5,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
 const Home = () => {
-  const [inputValue, setInputValue] = useState("");
+  const [inputValue, setInputValue] = useState("No tasks, add a task");
 
 
   const [isShown, setIsShown] = useState({ state: false, index: 0 });
